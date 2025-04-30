@@ -13,7 +13,7 @@ class PROGRAMMING_LANGUAGE(Enum):
 # - Simplify task description: "You are given a question..." -> "You need to make function/tool calls to solve the question given"
 # - No change to the rest.
 # ----------------------------------------
-DEFAULT_SYSTEM_PROMPT_WITHOUT_FUNC_DOC_VAR0 = """You are an experienced {programming_language} developer.
+DEFAULT_SYSTEM_PROMPT_WITHOUT_FUNC_DOC_VAR0 = """You are an experienced developer.
 You need to make function/tool calls to solve the question given.
 If none of the functions can be used, point it out.
 If the given question lacks the parameters required by the function, also point it out.
